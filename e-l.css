@@ -1,0 +1,205 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 10PX;
+  box-sizing: border-box;
+}
+
+/* General */
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Header */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  margin-right: 10px;
+}
+
+/* Main */
+
+main {
+  padding: 20px;
+}
+
+/* Hero Section */
+
+#hero {
+  background-color: #D2B48C;
+  padding: 100px;
+  text-align: center;
+}
+
+#hero h2 {
+  margin-top: 0;
+}
+
+#hero p {
+  font-size: 16px;
+}
+
+#hero .btn {
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 13px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#hero .btn:hover {
+  background-color: #333;
+}
+
+/* Courses Section */
+
+#courses {
+  padding-top: 40px;
+}
+
+#courses h2 {
+  margin-top: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+.card {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.card .btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card .btn:hover {
+  background-color: #333;
+}
+
+/* About Section */
+
+#about {
+  padding-top: 50px;
+}
+
+#about h2 {
+  margin-top: 0;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+}
+
+.member {
+  margin: 10px;
+}
+
+.member img {
+  width: 80%;
+}
+
+.member h4 {
+  margin-top: 0;
+}
+
+.member p {
+  font-size: 19Spx;
+}
+
+/* Contact Section */
+
+#contact {
+  padding-top: 25px;
+}
+
+#contact h2 {
+  margin-top: 0;
+}
+
+#contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+#contact textarea {
+  height: 100px;
+}
+
+#contact input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+  background-color: #333;
+}
+
+/* Footer */
+
+footer {
+  background-color: #EE82EE;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
